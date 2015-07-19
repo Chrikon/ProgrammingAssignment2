@@ -46,15 +46,15 @@ makeCacheMatrix <- function(x = matrix()) {
   isChanged<-function(){
     change
   }
-  Set change flag
+  #Set change flag
   setChanged<-function(y=logical()){
    change<<-y
   }
-  Get cached flag
+  #Get cached flag
   isCached<-function(){
     cached
   }
-  Set cached flag
+  #Set cached flag
   setCached<-function(a=logical()){
     cached<<-a
   }
